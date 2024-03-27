@@ -2,6 +2,9 @@
 
 Data engineering to analyze Earthquake events - ETL project using DBT, Azure ADF, Snowflake and Tableau
 
+![Untitled Diagram (4)](https://github.com/solo11/Data-engineering-project-2/assets/32461868/179f2c44-d2f8-4eaf-9953-9a65383b660b)
+
+
 ## Source
 
 **USGS.GOV**  - https://earthquake.usgs.gov/fdsnws/event/1
@@ -10,8 +13,10 @@ The website provides daily activities of earthquake events recorded
 
 ## Azure ADF
 
-Using the Azure data factory copy activity, the data is scheduled to load every day to snowflake
+Using the Azure data factory copy activity, the data is scheduled to load every day to Snowflake
 CSV data is extracted using REST API and loaded to the Snowflake warehouse
+
+<img width="1332" alt="Screenshot 2024-03-27 at 6 13 38 PM" src="https://github.com/solo11/Data-engineering-project-2/assets/32461868/081ebe19-c332-41d8-b032-9e10c65c4ef2">
 
 ## Snowflake
 
