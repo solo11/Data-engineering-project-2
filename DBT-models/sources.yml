@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+  - name: eq_data
+    database: EQANALYSIS  
+    schema: PUBLIC  
+    tables:
+      - name: eqdata
+      - name: countries_geo
